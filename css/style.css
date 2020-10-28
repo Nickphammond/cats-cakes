@@ -4,6 +4,13 @@
 
 body {
     margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
 }
 
 h1, h3, h4, p, a {
@@ -46,10 +53,10 @@ footer {
     background-color: #92cfe0;
 }
 
-#contact-footer {
+/* #contact-footer {
     position: relative;
     top: 280px;
-}
+} */
 
 .nav-bar {
     display: flex;
